@@ -1,0 +1,89 @@
+/* css for index.html */
+
+.imageindex {
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+body.index {
+    text-align: center;
+    font: "Times New Roman", Verdana;
+    background-color: rgb(243, 235, 213);
+}
+
+#index-title {
+    font-size: 50px;
+    color: brown;
+}
+
+.button {
+    background-color: rgb(247, 234, 210);
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 5px 10px ;
+    border: dashed;
+}
+/* css for recipes */
+/*martini*/
+
+.martini-body {
+    text-align: center;
+    background-color: rgb(225, 233, 244);
+}
+
+.martini-title {
+    color: rgb(11, 79, 157);
+    font-size: 70;
+    text-align: center;
+}
+
+#martini-image {
+    width: 700px;
+    height: auto;
+}
+
+.martini-steps {
+    display: block;
+    padding: 15px;
+}
+
+#website-gg {
+    color: darkblue;
+}
+
+#description-martini,
+#ingredients-martini,
+#steps-martini {
+    color:darkblue;
+    font-size: 30px;
+}
+
+.ingredients-martini-items {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid;
+    padding: 30px;
+    width: 200px;
+}
+
+.return {
+    display: block;
+    padding: 10px;
+    margin: 200px auto;
+}
+
+.returnpage {
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: -180px;
+}
+
+ul li {
+    font-weight: bold;
+    padding: 20px;
+}
